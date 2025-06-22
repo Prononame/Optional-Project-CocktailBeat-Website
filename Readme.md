@@ -1,7 +1,3 @@
-Here’s a simple, clear **GitHub README** template including installation, usage, and features — all concise and beginner-friendly:
-
----
-
 # CocktailBeat
 
 CocktailBeat is a Flask web app that lets you search for cocktails or get random cocktail recipes using TheCocktailDB API. It shows ingredients, instructions, and images in a clean interface.
