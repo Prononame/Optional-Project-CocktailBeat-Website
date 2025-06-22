@@ -1,0 +1,32 @@
+{% include "partials/header.html" %}
+
+<div class="container mainPageCon">
+    <div class="welcomeNotice">
+        <img class="welcomeCocktailImg" src="{{ url_for('static', filename='images/newCocktail2.png') }}" alt="Cocktail Image">
+        
+        <div class="titleDetails">
+            <h1>Welcome to The CocktailBeat</h1>
+            <p>Here you can find a wide variety of cocktail and drink recipes from all around the world</p>
+        </div>
+        
+        <img class="welcomeCocktailImg" src="{{ url_for('static', filename='images/newCocktail.png') }}" alt="Cocktail Image">
+    </div>
+
+    <div class="searchCon">
+        <h3>Search for a Cocktail</h3>
+        <div class="searchDetails">
+            <form action="/search" method="POST">
+                <input class="searchInput" name="searchName" placeholder="Search..." required>
+                <button type="submit" class="searchBtn">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="randomCon">
+        <form action="/random" method="GET">
+            <button type="submit" class="randomBtn">Get a random Cocktail Recipe</button>
+        </form>
+    </div>
+</div>
+
+{% include "partials/footer.html" %}
