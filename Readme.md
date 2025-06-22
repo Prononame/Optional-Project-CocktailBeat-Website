@@ -1,10 +1,60 @@
-Here are basic steps to run the project in your Laptop:
+Here’s a simple, clear **GitHub README** template including installation, usage, and features — all concise and beginner-friendly:
 
-1) Clone the repository and type "git clone" plus the link of the repository.
+---
 
-2) Install all the dependencies by typing "npm i" in your terminal.
+# CocktailBeat
 
-3) Now, type "nodemon index.js" on your terminal. 
-   (Notice: If you didn't install the nodemon, then just proceed it with the "node" instead of "nodemon")
+CocktailBeat is a Flask web app that lets you search for cocktails or get random cocktail recipes using TheCocktailDB API. It shows ingredients, instructions, and images in a clean interface.
 
-4) Go to the browser and type "localhost:3000" in the search area and then press the icon of that text that appears after you type the text.# Optional-Project-CocktailBeat-Website
+## Features
+
+* Search cocktails by name
+* Get random cocktail suggestions
+* View ingredients, category, and instructions
+* Responsive and user-friendly design
+
+## Installation
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/yourusername/cocktailbeat.git
+   cd cocktailbeat
+   ```
+
+2. **Create and activate a virtual environment:**
+
+   ```bash
+   python3 -m venv env
+   source env/bin/activate   # macOS/Linux
+   env\Scripts\activate      # Windows
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Run the Flask app:
+
+   ```bash
+   python app.py
+   ```
+
+2. Open your browser and go to:
+   `http://localhost:3000`
+
+3. Use the search bar to find cocktails or click the random button for a surprise.
+
+## Requirements
+
+* Python 3.6+
+* Flask
+* requests
+
+## License
+
+This project is licensed under the MIT License.
